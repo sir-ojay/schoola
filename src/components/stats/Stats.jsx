@@ -26,7 +26,7 @@ const Stats = ({ style }) => {
         <CircularProgressbar
           styles={buildStyles({
             pathColor: style.chartColor,
-            textColor: "#f88",
+            textColor: style.testColor,
             trailColor: "#d6d6d6",
             backgroundColor: "#3e98c7",
           })}

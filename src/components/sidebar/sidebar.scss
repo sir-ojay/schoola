@@ -72,3 +72,67 @@
     }
   }
 }
+@media screen and (min-width: 350px) and (max-width: 550px) {
+  .sidebar {
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+  
+    .top {
+      display: flex;
+      justify-content: left;
+  
+      .logo {
+        padding: 10px 20px;
+      }
+      .logo--desc {
+        p , h4{
+          display: none;
+          font-weight: 400;
+          font-size: 12px;
+        
+        }
+      }
+    }
+  
+    .center {
+      padding: 15px;
+  
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+  
+        :link {
+          text-decoration: none;
+        }
+  
+        li {
+          display: flex;
+          align-items: center;
+          padding-bottom: 20px;
+          cursor: pointer;
+  
+         
+  
+       
+  
+          span {
+            display: none;
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: 500;
+            font-size: 8px;
+            line-height: 12px;
+            margin-left: 5px;
+          }
+        }
+        .posts {
+          display: none;
+       
+        }
+      
+      }
+    }
+  }
+}

@@ -16,7 +16,33 @@
     display: flex;
     justify-content: space-between;
     margin-right: 40px;
-    width: 800px;
+    width: 810px;
     border-radius: 5px;
   }
 }
+@media screen and (min-width: 350px) and (max-width: 550px) {
+  .dashboard {
+    width: 100%;
+  
+    h4 {
+      text-align: left;
+      padding-left: 20px;
+    }
+  
+    .widgets {
+      display: flex;
+      flex-direction: column;
+      width: 195vw;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;   
+    }
+
+  
+    .statistics, .display--no {
+      display: none;
+   
+    }
+  }
+}
+

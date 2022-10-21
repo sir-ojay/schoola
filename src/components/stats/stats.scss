@@ -1,7 +1,6 @@
 .statistics {
-  // width: 450px;
   height: 100px;
-margin-left: 10px;
+  margin-left: 10px;
   display: flex;
   justify-content: space-between;
   .stats--Chart {
@@ -9,4 +8,16 @@ margin-left: 10px;
     width: 90px;
     height: 90px;
   }
+}
+@media screen and (min-width: 350px) and (max-width: 550px) {
+  .statistics{
+    display: none;
+    width: 40%;
+  }
+   .stats--Chart {
+
+   display: none;
+   
+  }
+
 }
