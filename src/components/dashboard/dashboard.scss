@@ -1,0 +1,22 @@
+.dashboard {
+  width: 820px;
+
+  h4 {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .widgets {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    width: 800px;
+    border-radius: 5px;
+  }
+}

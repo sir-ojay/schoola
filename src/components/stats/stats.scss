@@ -1,0 +1,12 @@
+.statistics {
+  // width: 450px;
+  height: 100px;
+margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  .stats--Chart {
+    padding: 5px;
+    width: 90px;
+    height: 90px;
+  }
+}

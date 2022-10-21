@@ -1,0 +1,65 @@
+.profile {
+  background-color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  padding: 20px;
+  .profile--header {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 0px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    .icon {
+      padding-top: 20px;
+      color: #000000;
+      border-radius: 10px;
+      width: 20.83px;
+      height: 20.83px;
+    }
+  }
+  .avatar--img {
+    padding-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+    img{
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+    }
+  }
+  p {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-between;
+
+    h4{
+     line-height: 0px;
+    }
+  }
+  .log--out {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: space-around;
+    color: #e13333;
+
+    .icon {
+      padding-top: 10px;
+    }
+    p {
+      color: #e13333;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+
+  .sidebar,
+  .notify {
+    flex: 3;
+    padding: 10px;
+  }
+  .dashboard {
+    background-color: #eeeeedfb;
+  }
+}
